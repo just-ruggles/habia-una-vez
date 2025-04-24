@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Friendly Neighbourhood Spider-man App.")
-image = Image.open('gato_raton.png')
+image = Image.open('fnsm.webp')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona un texto para ser escuchado.")
