@@ -9,11 +9,20 @@ import base64
 st.markdown(
     """
     <style>
-    .stApp {
+    .stApp::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         background-image: url("https://wallpapers.com/images/hd/black-carbon-fiber-1biekffyzs37csto.jpg");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        opacity: 0.3; /* 👈 Aquí controlas la opacidad */
+        z-index: -1;
     }
     </style>
     """,
