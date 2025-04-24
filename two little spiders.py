@@ -7,11 +7,11 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
+st.title("Friendly Neighbourhood Spider-man App.")
 image = Image.open('gato_raton.png')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Esrcibe y/o selecciona un texto para ser escuchado.")
 
 
 try:
@@ -19,18 +19,27 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
+st.subheader("Una pequeña historia.")
+st.write('Hace mucho tiempo, una pequeña arañita nació. La arañita se sentía muy sola, pero siempre dió lo mejor '  
+         ' de sí misma. Años pasaban y la arañita, a pesar de ser muy fuerte, sentía que tenía el peso del mundo ' 
+         ' en sus hombros, por lo que se alejó de aquellos que amaba. En medio de su soledad, la arañita conoció '  
+         ' a otra como ella, una arañita que necesitaba que le guiaran. Lo que la arañita mayor no sabía, es que ' 
+         ' ambos se necesitaban el uno al otro. Ya no era una sola, eran dos pequeñas arañitas explorando la vida. '
          '  '
-         ' Franz Kafka.'
-        
+         ' Yo: Ana. '
+         '  '
+         '  '
+         '  '
+        )
+
+st.write('Las interfaces de texto a audio son fundamentales para que la aplicación FNSM funcione perfectamente, '  
+         ' pues a veces con todo el ajetreo de luchar contra el crimen y balancearse por las ciudades en telarañas ' 
+         ' hace que sea bastante difícil leer la letra en el teléfono. '  
+         ' La verdad es que Peter está un poquito muy ciego, y no le da para leer las cosas. '
         )
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
-text = st.text_area("Ingrese El texto a escuchar.")
+text = st.text_area("Ingresa el texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
