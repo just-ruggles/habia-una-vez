@@ -6,28 +6,21 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
+
 st.markdown(
     """
     <style>
-    .stApp::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .stApp {
         background-image: url("https://wallpapers.com/images/hd/black-carbon-fiber-1biekffyzs37csto.jpg");
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 50;
-        z-index: -1;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 st.markdown('<h1 style="color:red;">Friendly Neighbourhood Spider-man App.</h1>', unsafe_allow_html=True)
