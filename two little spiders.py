@@ -38,7 +38,7 @@ st.write('Las interfaces de texto a audio son fundamentales para que la aplicaci
          ' La verdad es que Peter está un poquito muy ciego, y no le da para leer las cosas. '
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
+st.markdown(f"¿Quieres escucharlo? copia el texto:")
 text = st.text_area("Ingresa el texto a escuchar.")
 
 tld='com'
