@@ -21,7 +21,7 @@ st.markdown(
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 5;
+        opacity: 50;
         z-index: -1;
     }
     </style>
