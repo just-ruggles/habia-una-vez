@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://wallpapersok.com/images/hd/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg");
+        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77702088394.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
