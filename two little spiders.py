@@ -6,6 +6,21 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://wallpapersok.com/images/hd/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 st.markdown('<h1 style="color:red;">Friendly Neighbourhood Spider-man App.</h1>', unsafe_allow_html=True)
 image = Image.open('fnsm.webp')
 st.image(image, width=350)
